@@ -66,6 +66,7 @@ The purpose of this repo to share and spread the information of Turkish AI model
 13. [Trendyol/TY-ecomm-embed-multilingual-base-v1.2.0](https://huggingface.co/Trendyol/TY-ecomm-embed-multilingual-base-v1.2.0) Turkish and multilingual embeddings
 14. [artiwise-ai/modernbert-base-tr-uncased](https://huggingface.co/artiwise-ai/modernbert-base-tr-uncased)
 15. [ytu-ce-cosmos/turkish-e5-large](https://huggingface.co/ytu-ce-cosmos/turkish-e5-large) Turkish retrieval model
+16. [<HF-ORG>/HukukBERT](https://huggingface.co/<HF-ORG>/HukukBERT) Turkish legal domain encoder. Uses a 48K WordPiece tokenizer trained from scratch on legal text (not a reused general-domain vocabulary) plus domain-adaptive pretraining on Turkish court decisions. [Paper](https://arxiv.org/abs/2604.04790)
 
 #### Speech models
 1. [Trendyol/Trendyol-TTS](https://huggingface.co/Trendyol/Trendyol-TTS) Turkish Text-to-Speech model
@@ -139,6 +140,7 @@ Turkish Tree of Thoughts (ToT) dataset
 8. [CohereLabsCommunity/multilingual-reward-bench](https://huggingface.co/datasets/CohereLabsCommunity/multilingual-reward-bench) Reward benchmark (preference prediction)
 9. [boun-tabilab's Tabilab Collection](https://huggingface.co/collections/boun-tabilab/tabibench) A collection of benchmarks for classical NLP tasks (NER, summarization, classification, etc.)
 10. [AIM-Intelligence/XL-SafetyBench](https://huggingface.co/datasets/AIM-Intelligence/XL-SafetyBench) Jailbreak and cultural sensitivity benchmark
+11. [<HF-ORG>/legal-cloze-test](https://huggingface.co/datasets/<HF-ORG>/legal-cloze-test) Masked legal term prediction on Turkish court decisions. Measures domain vocabulary knowledge rather than exam-style recall.
 
 #### Visual and Text
 1. [CohereLabs/m-WildVision](https://huggingface.co/datasets/CohereLabs/m-WildVision)
@@ -158,6 +160,7 @@ Turkish Tree of Thoughts (ToT) dataset
 6. [Evaluating the Quality of Benchmark Datasets for Low-Resource Languages: A Case Study on Turkish](https://arxiv.org/abs/2504.09714)
 7. [YKSBench: Stress-Testing Multimodal Models with Exam-Style Questions](https://openreview.net/pdf?id=qgAjoo3cJE) Paper of YKSBench benchmark.
 8. [TurkBench: A Benchmark for Evaluating Turkish Large Language Models](https://www.arxiv.org/pdf/2601.07020) Paper of TurkBench benchmark
+9. [HUKUKBERT: Domain-Specific Language Model for Turkish Law](https://arxiv.org/abs/2604.04790) Legal-domain tokenizer and DAPT for Turkish; introduces the Legal Cloze Test benchmark.
 
 ### Tutorials and Codes
 1. [METU NLP Lab Git repo](https://github.com/metunlp)
